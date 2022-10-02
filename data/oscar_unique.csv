@@ -1,0 +1,51 @@
+table,column,count_composite
+address_useraddress,"user_id, hash",2
+catalogue_category,path,1
+catalogue_option,code,1
+catalogue_product,upc,1
+catalogue_productclass,slug,1
+catalogue_productrecommendation,"primary_id, recommendation_id",2
+catalogue_productcategory,"product_id, category_id",2
+catalogue_productattributevalue,"attribute_id, product_id",2
+catalogue_productclass_options,"productclass_id, option_id",2
+catalogue_product_product_options,"product_id, option_id",2
+partner_partner_users,"partner_id, user_id",2
+partner_partner,code,1
+partner_stockrecord,"partner_id, partner_sku",2
+communication_communicationeventtype,code,1
+basket_line,"basket_id, line_reference",2
+order_order,number,1
+order_paymenteventtype,name,1
+order_paymenteventtype,code,1
+order_shippingeventtype,name,1
+order_shippingeventtype,code,1
+order_shippingeventquantity,"event_id, line_id",2
+order_paymenteventquantity,"event_id, line_id",2
+offer_range_excluded_products,"range_id, product_id",2
+offer_conditionaloffer,name,1
+offer_conditionaloffer,slug,1
+offer_range,name,1
+offer_range,slug,1
+offer_range,proxy_class,1
+offer_rangeproduct,"range_id, product_id",2
+offer_range_classes,"range_id, productclass_id",2
+offer_range_included_categories,"range_id, category_id",2
+voucher_voucher,code,1
+voucher_voucher_offers,"voucher_id, conditionaloffer_id",2
+basket_basket_vouchers,"basket_id, voucher_id",2
+catalogue_attributeoption,"group_id, option",2
+catalogue_productattributevalue_value_multi_option,"productattributevalue_id, attributeoption_id",2
+offer_conditionaloffer_combinations,"from_conditionaloffer_id, to_conditionaloffer_id",2
+payment_sourcetype,code,1
+reviews_vote,"user_id, review_id",2
+reviews_productreview,"product_id, user_id",2
+shipping_orderanditemcharges,code,1
+shipping_orderanditemcharges,name,1
+shipping_weightbased,code,1
+shipping_weightbased,name,1
+shipping_orderanditemcharges_countries,"orderanditemcharges_id, country_id",2
+shipping_weightbased_countries,"weightbased_id, country_id",2
+voucher_voucher,name,1
+voucher_voucherset,name,1
+wishlists_wishlist,key,1
+wishlists_line,"wishlist_id, product_id",2

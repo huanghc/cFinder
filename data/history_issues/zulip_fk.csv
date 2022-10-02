@@ -1,0 +1,5 @@
+table,column,parent,prt_col
+zerver_userprofile,recipient,zerver_recipient,id
+zerver_stream,recipient,zerver_recipient,id
+zerver_huddle,recipient,zerver_recipient,id
+zerver_userpresence,realm,zerver_realm,id

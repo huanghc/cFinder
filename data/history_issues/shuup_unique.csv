@@ -1,0 +1,5 @@
+table,column,count_composite
+shuup_attribute,identifier,1
+shuup_orderstatus,identifier,1
+shuup_category,identifier,1
+campaigns_basketcampaign,coupon_id,1

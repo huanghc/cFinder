@@ -1,0 +1,20 @@
+table,column,count_composite
+catalogue_attributeoption,"group_id, option",2
+order_order,number,1
+catalogue_productcategory,"product_id, category_id",2
+catalogue_productattributevalue,"attribute_id, product_id",2
+catalogue_productrecommendation,"primary_id, recommendation_id",2
+order_shippingeventquantity,"event_id, line_id",2
+order_paymenteventquantity,"event_id, line_id",2
+offer_rangeproduct,"range_id, product_id",2
+partner_stockrecord,"partner_id, partner_sku",2
+communication_communicationeventtype,code,1
+address_useraddress,"user_id, hash",2
+order_paymenteventtype,name,1
+order_paymenteventtype,code,1
+order_shippingeventtype,name,1
+order_shippingeventtype,code,1
+catalogue_option,code,1
+offer_conditionaloffer,name,1
+
+

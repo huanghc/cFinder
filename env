@@ -1,0 +1,32 @@
+# APPs:  SALEOR, OSCAR, ZULIP, SHUUP, WAGTAIL, EDX, EDX_COMMERCE, all
+APP = "all"
+
+# Detect constraint type: unique, null, fk, all
+CONS_TYPE = "all"
+
+CONS_LIST = '["unique", "null", "fk"]'
+SOFTWARE_LIST = ["OSCAR", "SALEOR", "SHUUP", "ZULIP", "WAGTAIL", "EDX", "EDX_COMMERCE"]
+
+
+#####################################################
+# Application code path & setting path
+OSCAR_PROJECT_DIR = "app_code/django-oscar"
+SALEOR_PROJECT_DIR = "app_code/saleor"
+ZULIP_PROJECT_DIR = "app_code/zulip"
+SHUUP_PROJECT_DIR = "app_code/shuup"
+WAGTAIL_PROJECT_DIR = "app_code/wagtail"
+EDX_PROJECT_DIR = "app_code/edx-platform"
+EDX_COMMERCE_PROJECT_DIR = "app_code/ecommerce"
+EDX_SETTINGS_DIR = "lms.envs.devstack_docker"
+EDX_PROJECT_DIR_2 = "/edx/app/edxapp/edx-platform"
+EDX_SETTINGS_DIR_2 = "cms.envs.devstack_docker"
+EDX_COMMERCE_SETTINGS_DIR = "ecommerce.settings.local"
+
+
+#####################################################
+## (Optional) For database schema parser
+# DB type: mysql, postgre
+DB_TYPE = "postgre"
+
+# DB names,  EDX (DB_NAME = "edxapp"), EDX_COMMERCE (DB_NAME = "edxapp")
+DB_NAME = "SALEOR"

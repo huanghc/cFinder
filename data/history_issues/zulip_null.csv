@@ -1,0 +1,7 @@
+table,column
+zerver_realm,message_retention_days
+zerver_realm,description
+zerver_realm,string_id
+zerver_message,date_sent
+zerver_realm,name
+zerver_realmalias,realm_id

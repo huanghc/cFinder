@@ -1,0 +1,71 @@
+table,column,count_composite
+account_user,email,1
+account_user_addresses,"user_id, address_id",2
+account_user_groups,"user_id, group_id",2
+account_user_user_permissions,"user_id, permission_id",2
+order_order,token,1
+discount_sale_categories,"sale_id, category_id",2
+discount_sale_products,"sale_id, product_id",2
+app_app_permissions,"app_id, permission_id",2
+site_sitesettings,site_id,1
+checkout_checkout_gift_cards,"checkout_id, giftcard_id",2
+app_appinstallation_permissions,"appinstallation_id, permission_id",2
+product_digitalcontent,product_variant_id,1
+product_digitalcontenturl,token,1
+product_digitalcontenturl,line_id,1
+attribute_attributeproduct,"attribute_id, product_type_id",2
+attribute_attributevariant,"attribute_id, product_type_id",2
+product_collectionproduct,"collection_id, product_id",2
+attribute_assignedproductattribute,"product_id, assignment_id",2
+attribute_assignedvariantattribute,"variant_id, assignment_id",2
+product_productvariant,sku,1
+app_apptoken,auth_token,1
+account_staffnotificationrecipient,staff_email,1
+account_staffnotificationrecipient,user_id,1
+warehouse_warehouse_shipping_zones,"warehouse_id, shippingzone_id",2
+warehouse_stock,"warehouse_id, product_variant_id",2
+attribute_attribute,slug,1
+attribute_attributevalue,"slug, attribute_id",2
+product_category,slug,1
+product_collection,name,1
+product_collection,slug,1
+product_producttype,slug,1
+product_product,slug,1
+giftcard_giftcard,code,1
+order_order_gift_cards,"order_id, giftcard_id",2
+app_appextension_permissions,"appextension_id, permission_id",2
+product_product,default_variant_id,1
+warehouse_warehouse,slug,1
+warehouse_allocation,"order_line_id, stock_id",2
+discount_sale_collections,"sale_id, collection_id",2
+discount_voucher_categories,"voucher_id, category_id",2
+discount_voucher_collections,"voucher_id, collection_id",2
+discount_voucher,code,1
+discount_sale_variants,"sale_id, productvariant_id",2
+discount_voucher_products,"voucher_id, product_id",2
+discount_vouchercustomer,"voucher_id, customer_email",2
+channel_channel,slug,1
+product_productvariantchannellisting,"variant_id, channel_id",2
+product_productchannellisting,"product_id, channel_id",2
+product_collectionchannellisting,"collection_id, channel_id",2
+page_page,slug,1
+page_pagetype,slug,1
+attribute_attributepage,"attribute_id, page_type_id",2
+attribute_assignedproductattributevalue,"value_id, assignment_id",2
+attribute_assignedvariantattributevalue,"value_id, assignment_id",2
+attribute_assignedpageattributevalue,"value_id, assignment_id",2
+shipping_shippingmethodchannellisting,"shipping_method_id, channel_id",2
+shipping_shippingmethod_excluded_products,"shippingmethod_id, product_id",2
+shipping_shippingmethodpostalcoderule,"shipping_method_id, start, ""end""",3
+shipping_shippingzone_channels,"shippingzone_id, channel_id",2
+product_variantmedia,"variant_id, media_id",2
+discount_salechannellisting,"sale_id, channel_id",2
+discount_voucherchannellisting,"voucher_id, channel_id",2
+discount_voucher_variants,"voucher_id, productvariant_id",2
+menu_menu,slug,1
+plugins_pluginconfiguration,"identifier, channel_id",2
+warehouse_preorderallocation,"order_line_id, product_variant_channel_listing_id",2
+wishlist_wishlist,token,1
+wishlist_wishlist,user_id,1
+wishlist_wishlistitem,"wishlist_id, product_id",2
+wishlist_wishlistitem_variants,"wishlistitem_id, productvariant_id",2

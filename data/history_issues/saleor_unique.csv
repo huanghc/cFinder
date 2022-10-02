@@ -1,0 +1,10 @@
+table,column,count_composite
+account_user,token,1
+product_attributechoicevalue,"display, attribute_id",2
+product_collectionproduct,"collection_id, product_id",2
+attribute_attributeproduct,"attribute_id, product_type_id",2
+attribute_attributevariant,"attribute_id, product_type_id",2
+product_category,slug,1
+product_collection,slug,1
+product_producttype,slug,1
+product_variantimage,"variant_id, image_id",2

@@ -1,0 +1,48 @@
+table,column,count_composite
+zerver_client,name,1
+zerver_huddle,huddle_hash,1
+zerver_userpresence,"user_profile_id, client_id",2
+zerver_usermessage,"user_profile_id, message_id",2
+zerver_useractivity,"user_profile_id, client_id, query",3
+zerver_subscription,"user_profile_id, recipient_id",2
+zerver_recipient,"type, type_id",2
+zerver_realmfilter,"realm_id, pattern",2
+zerver_defaultstream,"realm_id, stream_id",2
+zerver_realm,string_id,1
+zerver_preregistrationuser_streams,"preregistrationuser_id, stream_id",2
+zerver_userprofile_groups,"userprofile_id, group_id",2
+zerver_userprofile_user_permissions,"userprofile_id, permission_id",2
+zerver_attachment_messages,"attachment_id, message_id",2
+zerver_reaction,"user_profile_id, message_id, emoji_name",3
+zerver_defaultstreamgroup_streams,"defaultstreamgroup_id, stream_id",2
+zerver_usergroupmembership,"user_group_id, user_profile_id",2
+zerver_usergroup,"realm_id, name",2
+zerver_botconfigdata,"bot_profile_id, key",2
+analytics_fillstate,property,1
+zerver_realmdomain,"realm_id, domain",2
+zerver_archivedusermessage,"user_profile_id, message_id",2
+zerver_archivedattachment_messages,"archivedattachment_id, archivedmessage_id",2
+zerver_userhotspot,"user_id, hotspot",2
+zerver_archivedreaction,"user_profile_id, message_id, reaction_type, emoji_code",4
+zerver_customprofilefieldvalue,"user_profile_id, field_id",2
+zerver_archivedattachment,path_id,1
+zerver_attachment,path_id,1
+zerver_usertopic,"user_profile_id, stream_id, topic_name",3
+zerver_multiuseinvite_streams,"multiuseinvite_id, stream_id",2
+zerver_botstoragedata,"bot_profile_id, key",2
+zerver_defaultstreamgroup,"realm_id, name",2
+zerver_reaction,"user_profile_id, message_id, reaction_type, emoji_code",4
+confirmation_confirmation,"type, confirmation_key",2
+zerver_customprofilefield,"realm_id, name",2
+zerver_pushdevicetoken,"user_id, kind, token",3
+zerver_userstatus,user_profile_id,1
+zerver_scheduledemail_users,"scheduledemail_id, userprofile_id",2
+zerver_stream,email_token,1
+zerver_archivedreaction,"user_profile_id, message_id, emoji_name",3
+zerver_missedmessageemailaddress,email_token,1
+zerver_alertword,"user_profile_id, word",2
+zerver_muteduser,"user_profile_id, muted_user_id",2
+zerver_realmplayground,"realm_id, pygments_language, name",3
+zerver_groupgroupmembership,"supergroup_id, subgroup_id",2
+zerver_scimclient,"realm_id, name",2
+zerver_stream,"name, realm_id",2

@@ -1,0 +1,16 @@
+table,column,count_composite
+confirmation_confirmation,"type, confirmation_key",2
+zerver_pushdevicetoken,"user_id, kind, token",3
+zerver_realmalias,"realm_id, domain",2
+zerver_stream,email_token,1
+zerver_archivedattachment,path_id,1
+zerver_attachment,path_id,1
+zerver_reaction,"user_profile_id, message_id, reaction_type, emoji_code",4
+zerver_archivedreaction,"user_profile_id, message_id, reaction_type, emoji_code",4
+analytics_realmcount,"realm, property, end_time",4
+analytics_installationcount,"property, subgroup, end_time",3
+analytics_streamcount,"property, subgroup, end_time",3
+analytics_usercount,"property, subgroup, end_time",3
+analytics_installationcount,"property, end_time",2
+analytics_streamcount,"property, end_time",2
+analytics_usercount,"property, end_time",2

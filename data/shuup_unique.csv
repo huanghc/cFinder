@@ -1,0 +1,120 @@
+table,column,count_composite
+shuup_attribute,identifier,1
+shuup_basket,key,1
+shuup_category,identifier,1
+shuup_contact,identifier,1
+shuup_contactgroup,identifier,1
+shuup_currency,code,1
+shuup_customertaxgroup,identifier,1
+shuup_manufacturer,identifier,1
+shuup_order,identifier,1
+shuup_order,key,1
+shuup_order,reference_number,1
+shuup_orderstatus,identifier,1
+shuup_payment,payment_identifier,1
+shuup_paymentmethod,identifier,1
+shuup_product,sku,1
+shuup_productmedia,identifier,1
+shuup_producttype,identifier,1
+shuup_productvariationresult,combination_hash,1
+shuup_salesunit,identifier,1
+shuup_serviceprovider,identifier,1
+shuup_shipment,identifier,1
+shuup_shippingmethod,identifier,1
+shuup_shop,identifier,1
+shuup_shop,domain,1
+shuup_supplier,identifier,1
+shuup_tax,code,1
+shuup_taxclass,identifier,1
+shuup_personcontact,user_id,1
+shuup_persistentcacheentry,"module, key",2
+shuup_orderstatus,"identifier, role",2
+shuup_suppliedproduct,"supplier_id, product_id",2
+shuup_shopproduct,"shop_id, product_id",2
+shuup_productvariationvariablevalue,"variable_id, identifier",2
+shuup_productvariationvariable,"product_id, identifier",2
+shuup_productpackagelink,"parent_id, child_id",2
+shuup_configurationitem,"shop_id, key",2
+shuup_producttype_attributes,"producttype_id, attribute_id",2
+shuup_contactgroup_members,"contactgroup_id, contact_id",2
+shuup_shopproduct_categories,"shopproduct_id, category_id",2
+shuup_shopproduct_payment_methods,"shopproduct_id, paymentmethod_id",2
+shuup_shopproduct_shipping_methods,"shopproduct_id, shippingmethod_id",2
+shuup_shopproduct_suppliers,"shopproduct_id, supplier_id",2
+shuup_shopproduct_visibility_groups,"shopproduct_id, contactgroup_id",2
+shuup_shop_staff_members,"shop_id, user_id",2
+shuup_shippingmethod_behavior_components,"shippingmethod_id, servicebehaviorcomponent_id",2
+shuup_productmedia_shops,"productmedia_id, shop_id",2
+shuup_paymentmethod_behavior_components,"paymentmethod_id, servicebehaviorcomponent_id",2
+shuup_contact_shops,"contact_id, shop_id",2
+shuup_category_shops,"category_id, shop_id",2
+shuup_category_visibility_groups,"category_id, contactgroup_id",2
+shuup_basket_products,"basket_id, product_id",2
+shuup_groupavailabilitybehaviorcomponent_groups,"groupavailabilitybehaviorcomponent_id, contactgroup_id",2
+shuup_companycontact_members,"companycontact_id, contact_id",2
+shuup_manufacturer_shops,"manufacturer_id, shop_id",2
+shuup_order_customer_groups,"order_id, contactgroup_id",2
+shuup_mediafile_shops,"mediafile_id, shop_id",2
+shuup_mediafolder_shops,"mediafolder_id, shop_id",2
+shuup_contactgrouppricedisplay,"shop_id, group_id",2
+shuup_label,identifier,1
+shuup_paymentmethod_labels,"paymentmethod_id, label_id",2
+shuup_shippingmethod_labels,"shippingmethod_id, label_id",2
+shuup_shop_labels,"shop_id, label_id",2
+shuup_orderline_labels,"orderline_id, label_id",2
+campaigns_basketcampaign,identifier,1
+campaigns_catalogcampaign,identifier,1
+campaigns_basketcampaign,coupon_id,1
+campaigns_contactgroupsalesrange,"group_id, shop_id",2
+campaigns_contactgroupbasketcondition_contact_groups,"contactgroupbasketcondition_id, contactgroup_id",2
+campaigns_categoryfilter_categories,"categoryfilter_id, category_id",2
+campaigns_categoryproductsbasketcondition_categories,"categoryproductsbasketcondition_id, category_id",2
+campaigns_categoryproductsbasketcondition_excluded_categories,"categoryproductsbasketcondition_id, category_id",2
+campaigns_contactbasketcondition_contacts,"contactbasketcondition_id, contact_id",2
+campaigns_contactcondition_contacts,"contactcondition_id, contact_id",2
+campaigns_contactgroupcondition_contact_groups,"contactgroupcondition_id, contactgroup_id",2
+campaigns_discountfromproduct_products,"discountfromproduct_id, product_id",2
+campaigns_freeproductline_products,"freeproductline_id, product_id",2
+campaigns_productfilter_products,"productfilter_id, product_id",2
+campaigns_productsinbasketcondition_products,"productsinbasketcondition_id, product_id",2
+campaigns_producttypefilter_product_types,"producttypefilter_id, producttype_id",2
+shuup_gdpr_gdprsettings,shop_id,1
+campaigns_catalogcampaign_conditions,"catalogcampaign_id, contextcondition_id",2
+campaigns_catalogcampaign_filters,"catalogcampaign_id, catalogfilter_id",2
+campaigns_basketcampaign_conditions,"basketcampaign_id, basketcondition_id",2
+carousel_carousel_shops,"carousel_id, shop_id",2
+default_tax_taxrule_customer_tax_groups,"taxrule_id, customertaxgroup_id",2
+default_tax_taxrule_tax_classes,"taxrule_id, taxclass_id",2
+shuup_servicebehaviorcomponent,identifier,1
+shuup_serviceprovider_shops,"serviceprovider_id, shop_id",2
+shuup_mediafolder_owners,"mediafolder_id, user_id",2
+shuup_suppliershop,"supplier_id, shop_id",2
+shuup_productattribute_chosen_options,"productattribute_id, attributechoiceoption_id",2
+shuup_suppliermodule,module_identifier,1
+shuup_supplier_supplier_modules,"supplier_id, suppliermodule_id",2
+shuup_backgroundtask,identifier,1
+shuup_orderstatus_allowed_next_statuses,"from_orderstatus_id, to_orderstatus_id",2
+shuup_productcatalogdiscountedprice,"product_id, shop_id, supplier_id, catalog_rule_id",4
+shuup_productcatalogpricerule,"module_identifier, contact_group_id, contact_id",3
+shuup_productcatalogprice,"product_id, shop_id, supplier_id, catalog_rule_id",4
+discounts_discount,identifier,1
+discounts_discount_happy_hours,"discount_id, happyhour_id",2
+discounts_shopproductcatalogdiscountslink,shop_product_id,1
+discounts_shopproductcatalogdiscountslink_discounts,"shopproductcatalogdiscountslink_id, discount_id",2
+registration_registrationprofile,user_id,1
+shuup_encryptedconfigurationitem,"shop_id, key",2
+shuup_customer_group_pricing_cgpprice,"product_id, shop_id, group_id",3
+shuup_customer_group_pricing_cgpdiscount,"product_id, shop_id, group_id",3
+shuup_front_storedbasket_products,"storedbasket_id, product_id",2
+shuup_xtheme_themesettings,"theme_identifier, shop_id",2
+shuup_simple_cms_page,"shop_id, identifier",2
+shuup_gdpr_gdpruserconsent_documents,"gdpruserconsent_id, gdpruserconsentdocument_id",2
+shuup_gdpr_gdprsettings_consent_pages,"gdprsettings_id, page_id",2
+shuup_gdpr_gdprcookiecategory_block_snippets,"gdprcookiecategory_id, snippet_id",2
+shuup_notify_script,identifier,1
+shuup_simple_cms_pageopengraph,page_id,1
+shuup_simple_cms_page_available_permission_groups,"page_id, group_id",2
+shuup_tasks_tasktype,"shop_id, identifier",2
+shuup_xtheme_adminthemesettings,shop_id,1
+shuup_xtheme_font,"shop_id, name",2
+simple_supplier_stockcount,"product_id, supplier_id",2

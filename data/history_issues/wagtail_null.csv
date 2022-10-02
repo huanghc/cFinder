@@ -1,0 +1,4 @@
+table,column
+wagtailembeds_embed,thumbnail_url
+wagtailcore_site,site_name
+wagtailimages_rendition,focal_point_key

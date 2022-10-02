@@ -1,0 +1,5 @@
+table,column
+shuup_notify_notification,shop_id
+shuup_notify_script,shop_id
+shuup_attribute,identifier
+shuup_orderstatus,identifier

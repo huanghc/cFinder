@@ -1,0 +1,37 @@
+﻿type,software,constraints,link,status
+unique,zulip,"zerver_realmemoji (deactivated,name,realm)",https://github.com/zulip/zulip/pull/20437,merged
+unique,zulip,"Confirmation (confirmation_key, type)",https://github.com/zulip/zulip/pull/20427,merged
+unique,zulip,realmUserDefault (realm),https://github.com/zulip/zulip/pull/21324,merged
+unique,zulip,confirmation_confirmation (confirmationkey),https://chat.zulip.org/#narrow/stream/9-issues/topic/Several.20generated.20key.20fields.20w.2Fo.20unique.20constraints.2E,ack
+unique,zulip,UserProfile (api_key),https://chat.zulip.org/#narrow/stream/9-issues/topic/Several.20generated.20key.20fields.20w.2Fo.20unique.20constraints.2E,ack
+unique,zulip,confirmation_realmcreationkey(creationkey),https://chat.zulip.org/#narrow/stream/9-issues/topic/Several.20generated.20key.20fields.20w.2Fo.20unique.20constraints.2E,ack
+unique,wagtail,"WorkflowState (workflow, page)",https://github.com/wagtail/wagtail/issues/8088,ack
+unique,wagtail,Site (is_default_site),https://github.com/wagtail/wagtail/pull/8152,ack
+unique,wagtail,"TaskState (page_revision,task)",https://github.com/wagtail/wagtail/issues/8090,ack
+unique,oscar,"ProductAttribute (code,product_class)",https://github.com/django-oscar/django-oscar/pull/3823,merged
+unique,oscar,ProductAlert (key),https://github.com/django-oscar/django-oscar/issues/3787,ack
+unique,oscar,Partner_partner (name),https://github.com/django-oscar/django-oscar/issues/3869,ack
+unique,edx-commerce,PaymentProcessorResponse (transaction_id),https://discuss.openedx.org/t/issue-some-fields-should-have-unique-constraint-in-openedx-ecommerce/6846,ack
+unique,edx-commerce,CouponVouchers (coupon),https://discuss.openedx.org/t/issue-some-fields-should-have-unique-constraint-in-openedx-ecommerce/6846,ack
+not null,zulip,Attachment (realm),https://github.com/zulip/zulip/pull/21470,merged
+not null,zulip,zerver_realmuserdefault (enter_sends),https://chat.zulip.org/#narrow/stream/9-issues/topic/Fields.20with.20boolean.20default.20should.20not.20allow.20null.20value,merged
+not null,zulip,zerver_stream (invite_only),https://chat.zulip.org/#narrow/stream/9-issues/topic/Fields.20with.20boolean.20default.20should.20not.20allow.20null.20value,merged
+not null,zulip,zerver_subscription (is_muted),https://chat.zulip.org/#narrow/stream/9-issues/topic/Fields.20with.20boolean.20default.20should.20not.20allow.20null.20value,merged
+not null,zulip,zerver_userprofile (enter_sends),https://chat.zulip.org/#narrow/stream/9-issues/topic/Fields.20with.20boolean.20default.20should.20not.20allow.20null.20value,merged
+not null,zulip,UserProfile (bot_type),https://chat.zulip.org/#narrow/stream/9-issues/topic/.60bot_type.60.20should.20not.20be.20null.20when.20the.20User.20is.20set.20to.20be.20bot/near/1346602,ack
+not null,wagtail,homepage (featured_section_1_title),https://github.com/wagtail/bakerydemo/pull/309,merged
+not null,wagtail,homepage (featured_section_2_title),https://github.com/wagtail/bakerydemo/pull/309,merged
+not null,wagtail,homepage (featured_section_3_title),https://github.com/wagtail/bakerydemo/pull/309,merged
+not null,wagtail,homepage (promo_title),https://github.com/wagtail/bakerydemo/pull/309,ack
+not null,edx-commerce,RefundLine (refund),https://discuss.openedx.org/t/issue-some-fields-should-not-be-null-in-openedx-ecommerce/6845,ack
+not null,edx-commerce,RefundLine (order_line),https://discuss.openedx.org/t/issue-some-fields-should-not-be-null-in-openedx-ecommerce/6845,ack
+not null,edx-commerce,Refund (order),https://discuss.openedx.org/t/issue-some-fields-should-not-be-null-in-openedx-ecommerce/6845,ack
+not null,edx-commerce,Refund (user),https://discuss.openedx.org/t/issue-some-fields-should-not-be-null-in-openedx-ecommerce/6845,ack
+fk,oscar,OrderDiscount (offer_id),https://github.com/django-oscar/django-oscar/issues/3821,ack
+fk,oscar,OrderDiscount (voucher_id),https://github.com/django-oscar/django-oscar/issues/3821,ack
+,,,,
+,,,,
+,Unique,Not NULL,FK,Total
+Open-source apps,14,14,2,30
+COMP,23,8,14,45
+Total,37,22,16,75

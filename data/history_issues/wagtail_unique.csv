@@ -1,0 +1,4 @@
+table,column,count_composite
+wagtailredirects_redirect,"old_path, site_id",2
+wagtailcore_workflowstate,"page_id,status",1
+wagtailimages_filter,spec,1

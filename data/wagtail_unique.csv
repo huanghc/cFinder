@@ -1,0 +1,19 @@
+table,column,count_composite
+wagtailcore_page,path,1
+wagtailcore_grouppagepermission,"group_id, page_id, permission_type",3
+wagtailcore_site,"hostname, port",2
+wagtailcore_groupcollectionpermission,"group_id, collection_id, permission_id",3
+wagtailimages_rendition,"image_id, filter_spec, focal_point_key",3
+wagtailcore_collection,path,1
+wagtailcore_pageviewrestriction_groups,"pageviewrestriction_id, group_id",2
+wagtailcore_collectionviewrestriction_groups,"collectionviewrestriction_id, group_id",2
+wagtailcore_workflowstate,current_task_state_id,1
+wagtailcore_workflowtask,"workflow_id, task_id",2
+wagtailcore_groupapprovaltask_groups,"groupapprovaltask_id, group_id",2
+wagtailcore_page,"translation_key, locale_id",2
+wagtailcore_pagesubscription,"page_id, user_id",2
+wagtailembeds_embed,hash,1
+wagtailredirects_redirect,"old_path, site_id",2
+wagtailsearch_query,query_string,1
+wagtailsearch_querydailyhits,"query_id, date",2
+wagtailusers_userprofile,user_id,1

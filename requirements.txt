@@ -1,0 +1,4 @@
+django-dotenv
+pandas
+gast
+django
