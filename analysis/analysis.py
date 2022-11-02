@@ -47,8 +47,12 @@ def pattern_finder(
 
         print("46 udchain failed: ", traceback.format_exc())
 
-    dir_idx = filepath.find("/app_code/")
-    subfilepath = filepath[dir_idx + len("/app_code/") :]
+    path_prefix = "/app_code/"
+    if "history_issues" in filepath:
+        path_prefix = "/history_issues/"
+        
+    dir_idx = filepath.find(path_prefix)
+    subfilepath = filepath[dir_idx + len(path_prefix) :]
 
     # Iterate the classes
     for class_tree in class_trees:
